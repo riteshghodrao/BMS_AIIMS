@@ -1,0 +1,28 @@
+table{margin: 15px 15px auto 15px}
+
+table, th, td {
+    border: solid 1px black;
+     border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: justify; 
+}
+captio{
+    font-size: 24px;
+}
+
+#home{float:left;
+    width: 80px;
+}
+
+#logout{float: right;
+        width: 80px;
+}
+
+#new_item{
+    
+            margin: 0 0 0 15px;
+            width: 150px;
+}

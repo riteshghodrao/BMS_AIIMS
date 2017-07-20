@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+header{background: white;
+height: 65px;}
+
+#logout{
+    
+    float: right;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+width:100px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+#logout:hover{
+   
+ background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+
+#logout:active{
+   
+ background: #232526;  /* fallback for old browsers */
+ 
+}
+
+#heading{
+    padding: 10px;
+    color: grey;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+
+
+
+#new_project{
+    
+   
+   background: #44A08D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #093637, #44A08D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #093637, #44A08D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ width: 600px;
+    height: 150px;
+    border-radius: 6px;
+    color: white;
+    font-size: 30px;
+   margin: 70px auto 0 auto;
+    display: block;
+    
+    
+}
+
+#new_project:hover{
+    cursor: pointer;
+    background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#new_project:active{
+    cursor: pointer;
+    border: solid 1px white;
+    background: #16222A;  /* fallback for old browsers */
+
+
+}
+
+
+
+#edit_project{
+    
+background: #FF5F6D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+ width: 600px;
+    height: 150px;
+    border-radius: 6px;
+    color: white;
+    font-size: 30px;
+   margin: auto auto auto 50px;
+    position: relative;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+#edit_project:hover{
+    cursor: pointer;
+    background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#edit_project:active{
+    cursor: pointer;
+    border: solid 1px white;
+    background: #16222A;  /* fallback for old browsers */
+
+
+}
+
+
+
+#view_project{
+    
+   
+   background: #C02425;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+ width: 600px;
+    height: 150px;
+    border-radius: 6px;
+    color: white;
+    font-size: 30px;
+   margin: auto 60px auto 50px;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+#view_project:hover{
+    cursor: pointer;
+    background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#view_project:active{
+    cursor: pointer;
+    border: solid 1px white;
+    background: #16222A;  /* fallback for old browsers */
+
+
+}
+
+
+
+#delete_project{
+    
+   
+   background: #3CA55C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ width: 600px;
+    height: 150px;
+    border-radius: 6px;
+    color: white;
+    font-size: 30px;
+   margin: auto 60px auto 50px;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+#delete_project:hover{
+    cursor: pointer;
+    background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#delete_project:active{
+    cursor: pointer;
+    border: solid 1px white;
+    background: #16222A;  /* fallback for old browsers */
+
+
+}
+
+
+
+#add_user{
+    
+   
+   background: #314755;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ width: 600px;
+    height: 150px;
+    border-radius: 6px;
+    color: white;
+    font-size: 30px;
+   margin: auto 60px auto 50px;
+    margin: 20px auto 70px auto;
+    display: block;
+}
+
+#add_user:hover{
+    cursor: pointer;
+    background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#add_user:active{
+    cursor: pointer;
+    border: solid 1px white;
+    background: #16222A;  /* fallback for old browsers */
+
+
+}
